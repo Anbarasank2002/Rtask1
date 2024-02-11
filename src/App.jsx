@@ -67,8 +67,8 @@ const App = () => {
     <div className="pricing py-5">
       <div className="container">
         <div className="row">
-          {data.map((e, i) => {
-            return <Card data={e} key={i} />;
+          {data.map((item, index) => {
+            return <Card data={item} key={index} />;
           })}
         </div>
       </div>
